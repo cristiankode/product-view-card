@@ -1,0 +1,39 @@
+@use 'abstracts/variables' as *;
+/* =========================
+    RESET
+==========================*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+:focus-visible {
+  outline: 3px solid #854632;
+  outline-offset: 4px;
+}
+
+/* =========================
+  BODY
+==========================*/
+body {
+  background: $color-cream;
+  color: $color-gray;
+  font-family: $font-primary;
+  font-size: $font-size-14;
+  min-height: 100dvh;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  display: block;
+}

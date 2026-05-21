@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+</head>
+<body>
+
+  <main>
+    <article>
+      <section aria-labelledby="product-title" class="card">
+
+        <figure class="card__image">
+          <picture>
+            <!-- Desktop -->
+            <source
+              media="(min-width: 1200px)"
+              srcset="/images/image-product-desktop.jpg"
+            />
+
+            <!-- Mobile -->
+            <img
+              src="/images/image-product-mobile.jpg"
+              alt="Gabrielle Essence Eau De Parfum bottle by Chanel"
+              class="img"
+            />
+          </picture>
+        </figure>
+
+        <div class="card__content">
+
+          <div class="card__description">
+            <p class="card__category">Perfume</p>
+            <h1 id="product-title" class="card__title">Gabrielle Essence Eau De Parfum</h1>
+            <p class="card__text">
+              A floral, solar and voluptuous interpretation composed by
+              Olivier Polge, Perfumer-Creator for the House of CHANEL.
+            </p>
+          </div>
+
+          <p class="card__price">
+            <strong>$149.99</strong>
+            <span aria-label="Original price">$169.99</span>
+          </p>
+
+          <button 
+            type="button" 
+            class="card__button"
+            aria-label="Add Gabrielle Essence Eau De Parfum to cart"
+          >
+            <img
+              src="/images/icon-cart.svg"
+              alt=""
+              aria-hidden="true"
+            />
+            Add to Cart
+          </button>
+        </div>
+      </section>
+    </article>
+  </main>
+  <script type="module" src="/src/main.js"></script>  
+</body>
+</html>
