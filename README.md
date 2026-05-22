@@ -1,6 +1,6 @@
-# Recipe Page Main
+# Product view card
 
-Minimal and responsive Recipe Page Main built with HTML and CSS. This project focuses on responsive design, accessibility, clean UI structure, and pixel-perfect.
+Minimal and responsive Product view card built with HTML and CSS. This project focuses on responsive design, accessibility, clean UI structure, and pixel-perfect.
 
 ## Demo
 
